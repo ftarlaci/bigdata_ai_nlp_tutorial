@@ -1,0 +1,10 @@
+name: nlp_tutorial
+channels:
+  - conda-forge 
+dependencies:
+  - python=3.7   
+  - jupyter
+  - pandas
+  - nltk 
+  - pip:
+    - scikit-learn
